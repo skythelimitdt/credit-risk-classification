@@ -35,7 +35,7 @@ Overall, this model performs well, demonstrating high precision and recall for b
 ### Machine Learning Model 2: Support Vector Machines
 
 **Classification Report Results**
-![classification_report_svc]([url](https://github.com/skythelimitdt/credit-risk-classification/blob/main/Resources/classification_report_svm.png)
+![classification_report_svc](https://github.com/skythelimitdt/credit-risk-classification/blob/main/Resources/classification_report_svm.png)
 
 The SVM model produced results similar to Logistic Regression, with few key differences:
 - **Higher recall (98%),** meaning it reduced the number of false negatives compared to Logistic Regression.

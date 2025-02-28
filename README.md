@@ -19,9 +19,9 @@ Stages of Machine Learning Process on This Analysis:
 
 ## Results
 
-* Machine Learning Model 1: Logistic Regression
-## Classification Report Results
-![classification_report_lr](URL)
+### Machine Learning Model 1: Logistic Regression
+**Classification Report Results**
+![classification_report_lr](https://github.com/skythelimitdt/credit-risk-classification/blob/main/Resources/classification_report_lr.png)
 
 - **precision:** The model achieved a perfect 100% precision for healthy loans, while high-risk loans had an 87% precision, meaning 13% were false positives.
 - **recall:** It correctly identified 100% of healthy loans and 95% of high-risk loans, leaving 5% as false negatives.
@@ -30,10 +30,10 @@ Stages of Machine Learning Process on This Analysis:
 
 Overall, this model performs well, demonstrating high precision and recall for both loan categories. With a 99% accuracy rate, it is highly reliable, though there is room for improvement, particularly in reducing the 13% false positive rate for high-risk loans.
 
-* Machine Learning Model 2: Support Vector Model
+### Machine Learning Model 2: Support Vector Model
 
-## Classification Report Results
-![classification_report_svc](url)
+**Classification Report Results**
+![classification_report_svc]([url](https://github.com/skythelimitdt/credit-risk-classification/blob/main/Resources/classification_report_svm.png)
 
 The SVM model produced results similar to Logistic Regression, with few key differences:
 - **Higher recall (98%),** meaning it reduced the number of false negatives compared to Logistic Regression.
